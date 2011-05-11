@@ -1,6 +1,8 @@
 {
     "name": "New tweets highlighter",
     "version": "0.1",
+    "icons": { "48": "icon48.png",
+               "128": "icon128.png" },
     "description": "Highlight the border between the last and new loaded tweets",
     "content_scripts": [
 	{
@@ -11,5 +13,6 @@
     "permissions": [
 	"http://twitter.com/",
 	"https://twitter.com/"
-    ]
+    ],
+    "homepage_url": "http://github.com/jcsirot/new-tweets-highlighter"
 }
