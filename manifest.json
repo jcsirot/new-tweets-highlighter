@@ -1,0 +1,15 @@
+{
+    "name": "New tweets highlighter",
+    "version": "0.1",
+    "description": "Highlight the border between the last and new loaded tweets",
+    "content_scripts": [
+	{
+	    "matches": ["http://twitter.com/*", "https://twitter.com/*"],
+	    "css": ["highlight.css"]
+	}
+    ],
+    "permissions": [
+	"http://twitter.com/",
+	"https://twitter.com/"
+    ]
+}

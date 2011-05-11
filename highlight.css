@@ -1,0 +1,7 @@
+div .stream-item.last-new-tweet {
+  border-bottom: 3px solid blue !important;
+  border-bottom-width: 3px;
+  border-bottom-style: solid;
+  border-bottom-color: red;
+  z-index: 1;
+}
